@@ -1,0 +1,7 @@
+# 是否启用 pull request 自动合并, 设置为 true 表示启用
+# 启用此项后，如果同时开启了分支保护，则根据 require approving reviews 数量来自动合并
+# 如果启用了分支保护但是没有设置 require approving reviews, 则依赖 APPROVED_REVIEWS_REQUIRED 来判断是否合并。
+# 若未开启分支保护，则当 approved reviews 满足 APPROVED_REVIEWS_REQUIRED 要求时即合并 pull request
+AUTO_MERGE: true
+
+APPROVED_REVIEWS_REQUIRED: 2
